@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Random quote machine</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="row">
+         <h2>Random quote machine</h2>
+         <div class="col s12 m8 offset-m2">
+            <div class="card-panel z-depth-5">
+               <span id="quote-content">Looking for the quote? Just click the button below !</span><br>
+               <div class="author" id="quote-author"></div>
+               <a id="twitter" href="https://twitter.com/intent/tweet/?text=" data-size="large" target="_blank"><i
+                     class="fab fa-twitter tooltipped" data-position="bottom" data-delay="100" data-tooltip="Tweet this quote!"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <a id="get-another-quote-button" class="btn-large light-blue lighten-1 ">Get quote</a>
+      <footer>
+         by <a href="https://github.com/ade4e" target="_blank">ade4e</a>
+         <br>
+      </footer>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <script src="js/index.js"></script>
+</body>
+
+</html>
